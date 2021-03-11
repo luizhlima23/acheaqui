@@ -1,0 +1,17 @@
+#termos_uso p{
+	color: #808080;
+	line-height: 25px;
+	margin: 0;
+	padding: 0 0 1em 0;
+}
+#termos_uso .item{
+	color: #EE3F23;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 1em 0 0 0;
+}
+
+#termos_uso ol{
+	margin-left: 30px;
+	color: #808080;
+}

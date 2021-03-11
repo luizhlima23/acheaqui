@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+    #RewriteBase /
+    
+	# Uncomment if you have a .well-known directory in the root folder, e.g. for the Let's Encrypt challenge
+	# https://tools.ietf.org/html/rfc5785
+	#RewriteRule ^(\.well-known/.*)$ $1 [L]
+	
+    # FORCE SSL REDIRECTION
+    #RewriteCond %{ENV:HTTPS} !on [NC]
+    #RewriteCond %{HTTP_HOST} !^local [NC]
+    #RewriteCond %{HTTP_HOST} !^staging [NC]
+    #RewriteRule ^(.*)$ https://www.aonde.info/$1 [R,L]
+    
+	RewriteRule ^$ app/webroot/ [L]
+	RewriteRule (.*) app/webroot/$1 [L]
+</IfModule>

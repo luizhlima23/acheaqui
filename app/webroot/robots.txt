@@ -1,0 +1,9 @@
+User-agent:*.
+Disallow:css
+Disallow:files
+Disallow:img
+Disallow:js
+Disallow:fonts
+Disallow:/uploads
+
+Sitemap: https://aonde.info/sitemap.xml

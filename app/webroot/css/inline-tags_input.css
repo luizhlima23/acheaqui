@@ -1,0 +1,19 @@
+.bootstrap-tagsinput{
+	color: #555;
+	padding:20px;
+}
+.label-tag{
+	color:#FA991C !important;
+	background: transparent;
+	padding:4px 5px; border:1px solid #FA991C; color:#FA991C; font-size:16px;/* FA991C */
+	border-radius: 3px; -webkit-border-radius:3px; -moz-border-radius:3px;
+	display: inline-block; margin-top:3px;margin-right:3px;font-weight: normal;
+	line-height: 100%;
+}
+.label-tag:hover{
+	border-color: #FFAF49; color:#FFAF49; 
+}
+#tagsCount{
+	color: #999;
+	font-size:12px;
+}

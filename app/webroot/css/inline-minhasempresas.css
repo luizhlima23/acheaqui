@@ -1,0 +1,40 @@
+.minhas_empresas{}
+.empresa{
+	margin-bottom: 40px;
+}
+.e-title{
+	color: #3333;
+	background: #ECEBEB;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 110%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+.e-button a{
+	text-align: center;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.e-alert{
+	background: #EE3F23;
+}
+	.e-alert a{
+		color: #EE3F23;
+		background: #ffcc29;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 12px;
+		padding:10px 15px;
+		font-size: 18px;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.e-alert a:hover{
+		color: #F7462A;
+		background: #FFD346;
+		opacity: 1; -moz-opacity:1; -webkit-opacity:1;
+	}

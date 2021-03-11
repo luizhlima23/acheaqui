@@ -1,0 +1,9 @@
+[08-Dec-2020 19:22:09 America/Sao_Paulo] PHP Fatal error:  Uncaught InternalErrorException: Internal Server Error in /home/aonde/public_html/lib/Cake/Error/ErrorHandler.php:261
+Stack trace:
+#0 /home/aonde/public_html/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(256, '[CakeException]...', '/home/aonde/pub...', 138)
+#1 [internal function]: ErrorHandler::handleError(256, '[CakeException]...', '/home/aonde/pub...', 138, Array)
+#2 /home/aonde/public_html/lib/Cake/Error/ErrorHandler.php(138): trigger_error('[CakeException]...', 256)
+#3 [internal function]: ErrorHandler::handleException(Object(SocketException))
+#4 {main}
+  thrown in /home/aonde/public_html/lib/Cake/Error/ErrorHandler.php on line 261
+[19-Jan-2021 23:28:06 America/Sao_Paulo] OAuthException: This IP can't make requests for that application.

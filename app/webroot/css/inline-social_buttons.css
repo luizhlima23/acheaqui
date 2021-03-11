@@ -1,0 +1,38 @@
+/* Social Button CSS */
+.share-btn {
+	outline: none;
+}
+	.share-btn:hover {
+		opacity: 0.85; -moz-opacity: 0.85; -webkit-opacity: 0.85;
+	}
+	.share-btn:active {
+	}
+
+/* COLORS */
+.color-twitter     { color: #55acee; }
+.color-google-plus { color: #dd4b39; }
+.color-facebook    { color: #3B5998; }
+.color-whatsapp    { color: #34af23; }
+.color-stumbleupon { color: #444444; }
+.color-reddit      { color: #FFA500; }
+.color-linkedin    { color: #4875B4; }
+.color-email       { color: #444444; }
+
+/* LINK */
+a.color-twitter     { color: #55acee; }
+a.color-google-plus { color: #dd4b39; }
+a.color-facebook    { color: #3B5998; }
+a.color-whatsapp    { color: #34af23; }
+a.color-stumbleupon { color: #444444; }
+a.color-reddit      { color: #FFA500; }
+a.color-linkedin    { color: #4875B4; }
+a.color-email       { color: #444444; }
+	a.color-twitter:hover     { color: #55acee; }
+	a.color-google-plus:hover { color: #dd4b39; }
+	a.color-facebook :hover   { color: #3B5998; }
+	a.color-whatsapp :hover   { color: #34af23; }
+	a.color-stumbleupon:hover { color: #444444; }
+	a.color-reddit:hover      { color: #FFA500; }
+	a.color-linkedin:hover    { color: #4875B4; }
+	a.color-email:hover       { color: #444444; }
+

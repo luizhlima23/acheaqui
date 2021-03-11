@@ -1,0 +1,17 @@
+#admin_nav-menu .navbar{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sect-acoes{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.table-view th{
+	width: 20%;
+}
+
+#dropdown-actions li{
+	font-size: 1.2em !important;
+}

@@ -1,0 +1,195 @@
+.text-orange{color: #F58634;}
+.text-green{color: #5CA47A;}
+.text-blue{color: #718FC8;}
+.text-fucsia{color: #A46080;}
+.box{
+	padding:0px 25px;
+	margin-bottom: 30px;
+}
+.box-wrap{
+	border:1px solid #CCC;
+	background: #f9f9f9;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.bkg-orange{
+	background-color: #F58634;
+}
+.bkg-green{
+	background-color: #5CA47A;
+}
+.bkg-blue{
+	background-color: #718FC8;
+}
+.bkg-fucsia{
+	background-color: #A46080;
+}
+.titulo{
+	color: #FFF;
+	text-align: left;
+	border-top-right-radius: 60px;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom: 0px;
+}
+	.titulo_v td{
+		padding:6px 0px;
+		padding-left:25px;
+		line-height: 100%;
+		font-weight: bold;
+	}
+	.titulo_v td:first-child{
+		font-size: 60px;
+		width: 35%;
+	}
+	.titulo_v td:nth-child(2){
+		padding-left:5px;
+		font-size: 25px;
+		width: 65%;
+	}
+
+.descricao{
+	color: #666;
+	line-height: 120%;
+	font-size: 110%;
+	border-bottom: 1px solid #CCC;
+	margin-top: 20px;
+}
+	.descricao p{
+		margin-bottom:20px;
+	}
+.poder{
+	background: #D7D7D7;
+	color: #999;
+	margin-bottom:0px;
+}
+	.poder_v td{
+		padding:6px 10px;
+		padding-left:15px;
+		line-height: 100%;
+		font-weight: bold;
+	}
+	.poder_v td:first-child{
+		font-size: 10px;
+		width: 35%;
+	}
+	.poder_v td:nth-child(2){
+		padding-left:5px;
+		font-size: 25px;
+		width: 65%;
+	}
+.vantagens{}
+.vantagens ul{
+	list-style: none;
+}
+	.vantagens ul li{
+		background-repeat: no-repeat;
+		background-position: top left;
+		padding-left: 50px;
+		line-height: 120%;
+		font-style: italic;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		min-height: 40px;
+	}
+	.vantagens-orange ul li{background-image: url('../img/layout/AONDE-site-ico-CHECK_OK-orange.png');}
+	.vantagens-green ul li{background-image: url('../img/layout/AONDE-site-ico-CHECK_OK-green.png');}
+	.vantagens-blue ul li{background-image: url('../img/layout/AONDE-site-ico-CHECK_OK-blue.png');}
+	.vantagens-fucsia ul li{background-image: url('../img/layout/AONDE-site-ico-CHECK_OK-fucsia.png');}
+.radape{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.selecao{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	line-height: 120%;
+	padding-top:13px;
+	padding-bottom:9px;
+	font-size: 26px;
+}
+.selecao-orange{
+	color: #FFF;
+	background: #F58634;
+}
+.selecao-green{
+	color: #FFF;
+	background: #5CA47A;
+}
+.selecao-blue{
+	color: #FFF;
+	background: #718FC8;
+}
+.selecao-fucsia{
+	color: #FFF;
+	background: #A46080;
+}
+.planos{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.planos * .radio{
+	border-bottom:0px solid #e8e8e8;
+	border-top:0px solid #e8e8e8;
+	margin-bottom: 0px;
+	margin-top: 2px;
+}
+	.planos .radio label{
+		width: 100%;
+		padding-top:10px;
+		padding-bottom:16px;
+		text-indent:15px !important;
+		font-size: 20px;
+		line-height: 100%;
+		background: #E6E7E8;
+	}
+	.planos .radio label:hover{
+		background: #FFF8AF; /* #FFF8AF */
+	}
+	.planos .radio .disabled + label:hover{
+		background: #E6E7E8; 
+	}
+	.radio-title{}
+	.title-ico{font-size:15px;}
+	.title-desc{font-size:16px;margin-left: 16px}
+
+
+	.radio input[type="radio"] {
+		margin-left:15px;
+		margin-top: 20px;
+	}
+
+	.radio label {
+		display:inline-block;
+		background-color:#E6E7E8;
+		padding:4px 11px;
+		padding-left: 25px;
+		font-family:Arial;
+		font-size:16px;
+	}
+
+	.radio input[type="radio"]:checked + label {
+		background-color:#FFF8AF;
+	}
+	.radio .disabled + label {
+		cursor: default;
+	}
+	.radio .disabled{
+		display: none;
+	}
+
+.bonus-num{
+	font-size: 35px;
+}
+.bonus-txt{
+	line-height: 110%;
+}
+.empresa{
+	background: #ededed;
+	padding:20px;
+}
+
+#divQueroAnunciar{
+	margin:30px 5px 5px 0px;
+}
